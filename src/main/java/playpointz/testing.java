@@ -138,6 +138,7 @@ public class testing {
 			       int start_a = (int) (dimension2.width * 0.2);
 			       int start_b = (int) (dimension2.height * 0.4);
 			       
+			       // test comment
 			       int end_a = (int) (dimension2.width * 0.2);
 			       int end_b = (int) (dimension2.height * -0.4);
 			       
