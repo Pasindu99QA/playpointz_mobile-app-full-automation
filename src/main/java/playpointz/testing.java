@@ -70,7 +70,7 @@ public class testing {
 			       WebElement password = driver.findElement(By.xpath("//android.widget.EditText[@text='Password']"));
 			       password.click();
 			       Thread.sleep(3000);
-			       password.sendKeys("071656Ad@");
+			       password.sendKeys("********");
 			       
 //LOGIN PAGE
 			        Thread.sleep(3000);
@@ -116,14 +116,14 @@ public class testing {
 			       //answer select
 			       
 			      // Thread.sleep(4000);
-			      // driver.findElement(By.xpath("	\r\n"
-			      // 		+ "//android.view.View[@content-desc=\"Toucan\"]")).click();
+			       driver.findElement(By.xpath("	\r\n"
+			      		+ "//android.view.View[@content-desc=\"Toucan\"]")).click();
 			       
 			       //answer submit
 			       
-			      // Thread.sleep(3000);
-			     //  driver.findElement(By.xpath("	\r\n"
-			     //  		+ "//android.widget.Button[@content-desc=\"Submit\"]")).click();
+			       Thread.sleep(3000);
+			       driver.findElement(By.xpath("	\r\n"
+			       		+ "//android.widget.Button[@content-desc=\"Submit\"]")).click();
 			   
 //HOME
 			       Thread.sleep(4000);
@@ -307,49 +307,9 @@ public class testing {
 				        		+ "//android.view.View[@content-desc=\"Support\"]")).click();
 				        
 				     
-				        
-				        
-				        
-				        
-			/*	      //comment
-				        
-				        Thread.sleep(3000);
-				          
-				        WebElement comment =  driver.findElement(By.xpath("	\r\n"
-				          		+ "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[4]"));
-				        
-				        comment.click();
-				        Thread.sleep(2000);
-				        comment.sendKeys("testing comment");
-				        
-				      //name
-				        
+			
 				        Thread.sleep(3000);
 				        
-				        WebElement name =  driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]"));
-				        name.click();
-				        Thread.sleep(2000);
-				        name.sendKeys("rajapaksha");
-				        
-				      //number
-				        
-				        Thread.sleep(3000);
-				        
-				        WebElement number =  driver.findElement(By.xpath("	\r\n"
-				          		+ "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]"));
-				        
-				        number.click();
-				        Thread.sleep(2000);
-				        number.sendKeys("12345678");
-				        
-				      //subject
-				        
-				        Thread.sleep(3000);
-				        
-				        WebElement subject =  driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[3]"));
-				        subject.click();
-				        Thread.sleep(2000);
-				        subject.sendKeys("testing"); */
 				        
 				      //save
 				        
@@ -369,8 +329,7 @@ public class testing {
 				        
 				        
 				        
-				        
-				      //scroll down
+				     
 				        
 			/*	        Thread.sleep(4000);
 				        
@@ -511,7 +470,7 @@ public class testing {
 					       
 				        
 				        
-/*				    //profile**
+				    //profile**
 				        
 				     Thread.sleep(3000);
 				     driver.findElement(By.xpath("//android.view.View[@content-desc=\"Profile\"]")).click();      
@@ -537,7 +496,7 @@ public class testing {
 			        
 			        
        
-			   /*     Thread.sleep(3000);
+			       Thread.sleep(3000);
 			        WebElement name =  driver.findElement(By.xpath("	\r\n"
 			        		+ "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[1]"));
 			        
@@ -624,10 +583,10 @@ public class testing {
 					      Thread.sleep(2000);
 					      city.clear();
 					      Thread.sleep(2000);
-					      city.sendKeys("Halpe");  */
+					      city.sendKeys("Halpe");  
 				          
 				        
-		/*		      //save
+			      //save
 					      
 					      Thread.sleep(3000);
 					      driver.findElement(By.xpath("	\r\n"
@@ -636,7 +595,7 @@ public class testing {
 					      
 					    //scroll down
 					        
-					      /*  Thread.sleep(8000);
+					       Thread.sleep(8000);
 					        
 					       org.openqa.selenium.Dimension dimension1 = driver.manage().window().getSize();
 					       int start_x1 = (int) (dimension1.width * 0.5);
@@ -649,15 +608,15 @@ public class testing {
 					       TouchAction action1 = new TouchAction(driver);
 					       action1.press(PointOption.point(start_x1, start_y1))
 					        .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1)))
-					        .moveTo(PointOption.point(end_x1, end_y1)).release().perform();     */ 
+					        .moveTo(PointOption.point(end_x1, end_y1)).release().perform();     
 			        
 					      
-				/*	   //back
+					   //back
 					      Thread.sleep(5000);   
 					      driver.findElement(By.xpath("	\r\n"
 					      		+ "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.Button")).click();
 					      
-			        */
+			        
 			        
 			        
 			    	
